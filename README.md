@@ -16,6 +16,7 @@ The model uses Count Vectorizer to extract all the captions into a matrix, where
 Results:
 The model was trained on a dataset of captions and their corresponding genres, with 12 genres in total. The model achieved an overall accuracy score of 0.70 and the individual scores for each genre varied between 0.54 and 0.96. The genres with the highest scores were electric, classical, and latin, while the genres with the lowest scores were dj and metal. The frequency of labels in the dataset was also provided, with electric being the most frequent and traditional being the least frequent.
 
+
 ***Score for each label****
 score: 0.7075892857142857
               precision    recall  f1-score   support
@@ -32,7 +33,6 @@ score: 0.7075892857142857
           dj       0.77      0.42      0.54        24
        latin       0.92      0.96      0.94        23
      country       1.00      0.86      0.93        22
-
    micro avg       0.92      0.81      0.86       686
    macro avg       0.91      0.76      0.83       686
 weighted avg       0.92      0.81      0.86       686
