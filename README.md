@@ -32,4 +32,4 @@ country     | 1.00      | 0.86   | 0.93     | 22
 
 
 ### Conclusion <br>
-The model was able to successfully classify music genres based on their captions, with an overall accuracy of 0.707. However, there is room for improvement in the individual scores for each genre. Further experimentation with different feature extraction methods and machine learning algorithms could potentially improve the model's performance.
+The model was able to successfully classify music genres based on their captions, with an overall accuracy of 0.70. However, there is room for improvement in the individual scores for each genre. Further experimentation with different feature extraction methods and machine learning algorithms could potentially improve the model's performance.
