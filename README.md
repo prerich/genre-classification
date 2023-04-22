@@ -6,12 +6,12 @@ This project aims to classify music genres based on their captions using machine
 
 
 ### Dataset: <br>
-The dataset consists of captions and their corresponding genres, with 12 genres in total: electric, pop, rock, dance, folk, classical, traditional, jazz, metal, dj, latin, and country. The frequency of labels in the dataset is provided below:
+The dataset consists of captions and their corresponding genres, with 12 genres in total: electric, pop, rock, dance, folk, classical, traditional, jazz, metal, dj, latin, and country.
 
 the dataset is called MusicCaps and its from https://www.kaggle.com/datasets/googleai/musiccaps it includes an aspect list and a caption from a musician
 
 ### Results: <br>
-The model achieved an overall accuracy score of 0.707, with individual scores for each genre varying between 0.54 and 0.96. The genres with the highest scores were electric, classical, and latin, while the genres with the lowest scores were dj and metal. The score for each label is provided below:
+The model achieved an overall accuracy score of: **0.70** , with individual scores for each genre varying between 0.54 and 0.96. The genres with the highest scores were electric, classical, and latin, while the genres with the lowest scores were dj and metal. The score for each label is provided below:
 
 Score for each label: 
 
