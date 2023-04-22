@@ -4,12 +4,13 @@ Music Genre Classification with Captions
 
 This project aims to classify music genres based on their captions using machine learning. The model uses Count Vectorizer to extract features and logistic regression to detect the presence or absence of each genre label.
 
-the dataset is called MusicCaps and its from https://www.kaggle.com/datasets/googleai/musiccaps it includes an aspect list and a caption from a musician
 
-Dataset
+### Dataset: <br>
 The dataset consists of captions and their corresponding genres, with 12 genres in total: electric, pop, rock, dance, folk, classical, traditional, jazz, metal, dj, latin, and country. The frequency of labels in the dataset is provided below:
 
-Results
+the dataset is called MusicCaps and its from https://www.kaggle.com/datasets/googleai/musiccaps it includes an aspect list and a caption from a musician
+
+### Results: <br>
 The model achieved an overall accuracy score of 0.707, with individual scores for each genre varying between 0.54 and 0.96. The genres with the highest scores were electric, classical, and latin, while the genres with the lowest scores were dj and metal. The score for each label is provided below:
 
 Score for each label: 
@@ -30,5 +31,5 @@ latin       | 0.92      | 0.96   | 0.94     | 23
 country     | 1.00      | 0.86   | 0.93     | 22
 
 
-Conclusion
+### Conclusion <br>
 The model was able to successfully classify music genres based on their captions, with an overall accuracy of 0.707. However, there is room for improvement in the individual scores for each genre. Further experimentation with different feature extraction methods and machine learning algorithms could potentially improve the model's performance.
